@@ -1,0 +1,117 @@
+footer.footer {
+    background-color: #393939;
+    padding: 0 55px;
+    overflow: hidden;
+}
+
+footer.footer p {
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.footer div.container {
+    padding: 0;
+}
+
+.row div {
+    color: #f9f9f9;
+    padding: 50px 25px 0 15px;
+}
+
+.redes {
+    display: flex;
+}
+
+.footer-logo {
+    padding-left: 0;
+}
+
+.footer-logo a {
+    background-image: url("/src/assets/img/bac-footer-logo.png");
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 100px;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+div a {
+    font-size: .85em;
+    color: #ddd;
+}
+
+div a:hover {
+    color: #f9f9f9;
+    text-shadow: 2px 2px 1px #141414;
+}
+
+.redes a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.redes-fb {
+    background-image: url("/src/assets/img/social-fb.svg");
+}
+
+.redes-tw {
+    background-image: url("/src/assets/img/social-tw.svg");
+}
+
+.redes-yt {
+    background-image: url("/src/assets/img/social-yt.svg");
+}
+
+.redes-ig {
+    background-image: url("/src/assets/img/social-in.png");
+}
+
+.redes-rss {
+    background-image: url("/src/assets/img/social-rss.svg");
+}
+
+.bac img {
+    height: 35px;
+    padding-right: 25px;
+}
+
+.bac {
+    padding: 15px 0 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: .75em;
+}
+
+.bac p {
+    padding-right: 15px;
+}
+
+@media (max-width:992px) {
+    .redes {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bac img {
+        height: 25px;
+        padding-right: 15px;
+    }
+
+    .row div:last-child {
+        padding: 15px 25px 0 15px;
+    }
+}

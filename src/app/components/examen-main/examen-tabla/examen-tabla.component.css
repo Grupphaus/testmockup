@@ -1,0 +1,31 @@
+thead {
+    background-color: darkgray;
+    color: #f9f9f9;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+tr th {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    width: 25%;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+tr td.text-muted {
+    padding: 15px 0;
+}
+
+caption {
+    padding: 50px 50px 50px 0;
+    font-size: 2.5em;
+    color: #323232;
+}
