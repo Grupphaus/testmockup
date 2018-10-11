@@ -27,7 +27,7 @@ footer.footer p {
 }
 
 .footer-logo a {
-    background-image: url("/src/assets/img/bac-footer-logo.png");
+    background-image: url("/assets/img/bac-footer-logo.png");
     display: block;
     background-size: contain;
     background-repeat: no-repeat;
@@ -63,23 +63,23 @@ div a:hover {
 }
 
 .redes-fb {
-    background-image: url("/src/assets/img/social-fb.svg");
+    background-image: url("/assets/img/social-fb.svg");
 }
 
 .redes-tw {
-    background-image: url("/src/assets/img/social-tw.svg");
+    background-image: url("/assets/img/social-tw.svg");
 }
 
 .redes-yt {
-    background-image: url("/src/assets/img/social-yt.svg");
+    background-image: url("/assets/img/social-yt.svg");
 }
 
 .redes-ig {
-    background-image: url("/src/assets/img/social-in.png");
+    background-image: url("/assets/img/social-in.png");
 }
 
 .redes-rss {
-    background-image: url("/src/assets/img/social-rss.svg");
+    background-image: url("/assets/img/social-rss.svg");
 }
 
 .bac img {
