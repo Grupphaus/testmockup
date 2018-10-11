@@ -31,7 +31,8 @@ section.main-split {
 .main-content--left p {
     line-height: 1.5em;
     font-size: 1em;
-    padding: 15px 50px;
+    padding: 15px 150px 15px 50px;
+    text-align: justify;
 }
 
 .main-content--right {
@@ -48,7 +49,26 @@ section.main--inscriptos {
 }
 
 @media (max-width: 900px) {
+    .main-content--left h2 {
+        font-size: 2.3em;
+    }
+
     .main-content--right {
         display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .main-content--left h2 {
+        font-size: 2em;
+    }
+
+    .main-content--left p {
+        font-size: .95em;
+        padding: 15px 50px 15px 50px;
+    }
+
+    section.main--inscriptos {
+        padding: 25px 15px 75px 15px;
     }
 }

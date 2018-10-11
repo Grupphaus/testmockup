@@ -29,3 +29,14 @@ caption {
     font-size: 2.5em;
     color: #323232;
 }
+
+@media (max-width: 768px) {
+    .table {
+        font-size: .8em;
+    }
+
+    caption {
+        font-size: 2.1em;
+        padding: 35px 35px 35px 0;
+    }
+}

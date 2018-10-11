@@ -4,13 +4,13 @@ div {
 
 h1 {
     margin-bottom: 25px;
-    font-size: 6rem;
+    font-size: 6em;
     letter-spacing: -3px;
     word-spacing: -3px;
 }
 
 p {
-    font-size: 1.16rem;
+    font-size: 1.16em;
 }
 
 div.jumbotron {
@@ -60,4 +60,15 @@ button.btn:hover {
     color: #fb8a3b;
     border-color: #fb8a3b;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 4.5em;
+    }
+
+    div.jumbotron {
+        top: -45px;
+        height: 500px;
+    }
 }
