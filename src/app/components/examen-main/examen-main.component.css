@@ -12,7 +12,6 @@ section.main-split {
 
 .main-content--left, .main-content--right {
     flex: 1;
-    height: 550px;
     width: 50%;
     display: flex;
     align-items: flex-start;
@@ -71,4 +70,11 @@ section.main--inscriptos {
     section.main--inscriptos {
         padding: 25px 15px 75px 15px;
     }
+	
+@media (max-width:480px) {
+        section.main-split {
+        height: 500px;
+    }
+}
+
 }

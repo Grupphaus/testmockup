@@ -15,6 +15,7 @@ nav.navbar.navbar-default {
     padding-left: 55px;
     color: #f8f8f8;
     height: 78px;
+    text-shadow: none;
 }
 
 .navbar--logo img {
