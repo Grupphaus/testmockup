@@ -1,15 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-examen-footer',
   templateUrl: './examen-footer.component.html',
   styleUrls: ['./examen-footer.component.css']
 })
-export class ExamenFooterComponent implements OnInit {
+export class ExamenFooterComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

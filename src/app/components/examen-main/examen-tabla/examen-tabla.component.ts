@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   selector: 'app-examen-tabla',
   styleUrls: ['./examen-tabla.component.css'],
   template: `
-  <table class="table">
+  <table class="table" id="#inscriptos">
     <caption>Inscriptos</caption>
     <thead>
       <tr>
