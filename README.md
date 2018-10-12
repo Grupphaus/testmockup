@@ -4,7 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Used [Visual Studio Code](https://code.visualstudio.com/) as IDE.
 
-And [Bootstrap](https://getbootstrap.com/).
+Powered (mildly) by [Bootstrap](https://getbootstrap.com/).
+
+I know the "function inside anchors" thing is kinda lame but I thought "what the hell, let the browser handle it. it's a landing page after all..."
+
+
 
 ## Development server
 
@@ -17,7 +21,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes

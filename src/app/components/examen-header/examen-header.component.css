@@ -13,6 +13,8 @@ nav.navbar.navbar-default {
     align-items: center;
     margin: 25px 0;
     padding-left: 55px;
+    color: #f8f8f8;
+    height: 78px;
 }
 
 .navbar--logo img {
