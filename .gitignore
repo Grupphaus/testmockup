@@ -21,6 +21,7 @@
 npm-debug.log
 testem.log
 /typings
+diagramaSade.pdf
 
 # e2e
 /e2e/*.js
